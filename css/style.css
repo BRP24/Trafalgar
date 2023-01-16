@@ -27,11 +27,9 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1150px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 
@@ -46,7 +44,7 @@ body {
 }
 
 .site-header {
-    margin-bottom: 191px;
+    margin-bottom: 140px;
 }
 
 .hero-main-text {
@@ -67,11 +65,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
-/* .hero-main-image {
-    padding-left: 109px;
-} */
+.hero-main-image {
+    position: absolute;
+    margin-left: 500px;
+}
 
 .btn {
     background-color: #458FF6;
@@ -88,7 +88,7 @@ body {
 }
 
 .services-title {
-    margin-top: 113px;
+    margin-top: 260px;
     text-align: center;
     font-size: 36px;
     font-weight: 700;

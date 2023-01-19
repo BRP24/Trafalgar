@@ -1,13 +1,13 @@
 @import url(../css/reset.css);
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 .container {
 	max-width: 1150px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-::-webkit-scrollbar {
-	display: none;
 }
 
 .site-header-list {

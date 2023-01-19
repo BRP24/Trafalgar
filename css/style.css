@@ -6,6 +6,10 @@
 	margin-right: auto;
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 .site-header-list {
 	display: flex;
 	float: right;
